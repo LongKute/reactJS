@@ -33,3 +33,16 @@ Cách chạy tại chế độ production:
 3. Update file .env.production (nếu cần thiết)
 4. Build dự án: npm run build
 5. Chạy dự án: npm run preview
+
+
+echo "# ss" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LongKute/reactJS.git
+git push -u origin main
+…or push an existing repository from the command line
+git remote add origin https://github.com/LongKute/reactJS.git
+git branch -M main
+git push -u origin main
