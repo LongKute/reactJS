@@ -1,7 +1,14 @@
+//jsx: 1 parent
+// fragment
+import "./style.css"
 const MyComponent = () => {
     return(
-      <div>Longkute</div>
+      //fragment
+      <> 
+      <div>Hi Everyone</div>
+      <div className="name">Longkute</div>
+      </>
     );
   }
 
-  export default MyComponent
+  export default MyComponent;
